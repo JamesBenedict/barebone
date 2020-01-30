@@ -1,4 +1,4 @@
-# Barebone.js
+# Barebone
 A simple starting point to develop javascript programs or media. 
 
 ## Featutres
