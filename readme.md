@@ -1,7 +1,7 @@
 # Barebone
 A simple starting point to develop javascript programs or media. 
 
-## Featutres
+## Features
 * Server with live reload 
 * Sass compiler
 * D3 and handlebars included
