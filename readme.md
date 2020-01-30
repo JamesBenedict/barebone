@@ -7,7 +7,7 @@ A simple starting point to develop javascript programs or media.
 * D3 and handlebars included
 
 ## Getting started
-The program was developed for python 3, but should run with python 2.7, which is installed by default on Macs. 
+The program was developed for python 3 but should run with python 2.7, which is installed by default on Macs. 
 
 Navigate into the project directory  
 ```
