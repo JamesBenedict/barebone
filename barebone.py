@@ -31,7 +31,7 @@ def server():
     # Creates server at port 8080
     server = Server()
     server.watch('./style/sass/style.scss', compile_sass)
-    server.serve(port=8080, host='localhost')
+    server.serve(port=8081, host='localhost')
 
 
 server()

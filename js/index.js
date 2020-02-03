@@ -1,9 +1,21 @@
-d3.select("#gfx_container")
-    .append("svg")
-    .attr("width", 50)
-    .attr("height", 50)
-    .append("circle")
-    .attr("cx", 25)
-    .attr("cy", 25)
-    .attr("r", 25)
-    .style("fill", "teal");
+
+
+
+// more about json
+// https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/JSON
+let requestURL = "../assets/data.json"
+let request = new XMLHttpRequest();
+request.open('GET', requestURL);
+request.responseType = 'json';
+request.send();
+
+request.onload = function() {
+    const data = request.response;
+    console.log(data)
+
+    
+    window.addEventListener('resize', () => {
+        console.log('resized')
+    });
+
+  }
